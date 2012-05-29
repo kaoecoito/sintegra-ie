@@ -11,5 +11,5 @@ Como cada estado possui um cálculo diferente na validação foi utilizado as in
 
 Para utilização a biblioteca siga i exemplo abaixo
 
-InscricaoEstadual ie = InscricaoEstadualFactory\.getInstance("TO");
-boolean valido = ie\.validar("2901022783-6");
+InscricaoEstadual ie = InscricaoEstadualFactory.getInstance("TO");
+boolean valido = ie.validar("2901022783-6");
