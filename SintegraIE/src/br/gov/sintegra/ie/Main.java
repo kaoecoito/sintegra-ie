@@ -8,8 +8,8 @@ public class Main {
 
     public static void main(String[] args) {
         
-        InscricaoEstadual ie = InscricaoEstadualFactory.getInstance("TO");
-        boolean valido = ie.validar("2901022783-6");
+        InscricaoEstadual ie = InscricaoEstadualFactory.getInstance("MG");
+        boolean valido = ie.validar("7016128500006");
         System.out.println("Válido: "+valido);
         
     }

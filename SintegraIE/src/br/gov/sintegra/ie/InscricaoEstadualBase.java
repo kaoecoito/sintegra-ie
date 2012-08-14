@@ -80,6 +80,7 @@ public abstract class InscricaoEstadualBase implements InscricaoEstadual {
     }
     
     protected int dezena(int num) {
+        if (num%10d==0) return num;
         int digito = round(num/10d);
         return (digito+1)*10;
     }
